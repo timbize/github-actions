@@ -1,11 +1,15 @@
 {
-  "name": "my-node-app",
+  "name": "github-actions",
   "version": "1.0.0",
-  "description": "A simple Node.js project for beginners",
+  "description": "A sample project for GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbize/github-actions.git"
+  },
+  "author": "timbize",
   "license": "ISC"
 }
